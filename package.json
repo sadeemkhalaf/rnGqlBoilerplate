@@ -7,9 +7,12 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "generate": "graphql-codegen --config graphql.config.yml"
   },
   "dependencies": {
+    "@apollo/client": "^3.10.3",
+    "graphql": "^16.8.1",
     "react": "18.2.0",
     "react-native": "0.74.1"
   },
@@ -17,6 +20,11 @@
     "@babel/core": "^7.20.0",
     "@babel/preset-env": "^7.20.0",
     "@babel/runtime": "^7.20.0",
+    "@graphql-codegen/cli": "^5.0.2",
+    "@graphql-codegen/typescript": "^4.0.6",
+    "@graphql-codegen/typescript-graphql-request": "^6.2.0",
+    "@graphql-codegen/typescript-operations": "^4.2.0",
+    "@graphql-codegen/typescript-react-apollo": "^4.3.0",
     "@react-native/babel-preset": "0.74.83",
     "@react-native/eslint-config": "0.74.83",
     "@react-native/metro-config": "0.74.83",
